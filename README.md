@@ -20,26 +20,6 @@ Limits input length to 1024 characters.
 
 Returns structured results with sanitized data and validation errors.
 
-## Project Structure
-
-src/
-├─ normalize/
-│  ├─ decode.ts
-│  ├─ sanitize.ts
-│  └─ unicode.ts
-├─ rules/
-│  ├─ email.ts
-│  ├─ name.ts
-│  ├─ phone.ts
-│  └─ telegram.ts
-├─ index.ts
-├─ server.ts
-├─ types.ts
-├─ validate.ts
-package.json
-tsconfig.json
-README.md
-
 ## Installation
 
 For internal usage, simply copy the module into your project:
@@ -69,12 +49,12 @@ Output:
 ```
 
 ## PoC
-### Normal request
-![Validation Output](screenshots/NormalRequest.png)
-### Tempered Request in Base64 
-![Validation Output](screenshots/TemperedRequestB64.png)
-### Normal Request in Base64
-![Validation Output](screenshots/NormalRequestB64.png)
+
+![Normal Request](screenshots/NormalRequest.png)
+ 
+![Tempered Request Base 64](screenshots/TemperedRequestB64.png)
+
+![Normal Request Base 64](screenshots/NormalRequestB64.png)
 
 
 ## Security Considerations
