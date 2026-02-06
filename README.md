@@ -50,9 +50,15 @@ Output:
 
 ## PoC
 
+### Normal Request
+
 ![Normal Request](Screenshots/NormalRequest.png)
- 
+
+### Tempered Request base64
+
 ![Tempered Request Base 64](Screenshots/TemperedRequestB64.png)
+
+### Normal Request base64
 
 ![Normal Request Base 64](Screenshots/NormalRequestB64.png)
 
