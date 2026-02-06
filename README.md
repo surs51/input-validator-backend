@@ -50,11 +50,11 @@ Output:
 
 ## PoC
 
-![Normal Request](screenshots/NormalRequest.png)
+![Normal Request](Screenshots/NormalRequest.png)
  
-![Tempered Request Base 64](screenshots/TemperedRequestB64.png)
+![Tempered Request Base 64](Screenshots/TemperedRequestB64.png)
 
-![Normal Request Base 64](screenshots/NormalRequestB64.png)
+![Normal Request Base 64](Screenshots/NormalRequestB64.png)
 
 
 ## Security Considerations
